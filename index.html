@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Exam</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="bankofquestions.js"></script>
+	<script src="ExamProject3.js"></script>
+	<script src="dist/sweetalert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+</head>
+
+<body>
+ <a name="top" style="display:none;" id="topa"></a>
+	<div id="welcomeDiv">
+		<h1 id="welcometext"> Welcome To Our Exam System </h1>
+		<h2> Don't Stress... Do your Best</h2>
+		<input class="start" type="button" value="Practice" id="btnpre" />
+		<input class="start" type="button" value="Exam" id="btnstart" />
+	</div>
+
+	<div id="hiddenDiv" style="display: none;">
+		<div id="timerDiv">
+		</div>
+		<div id="mainID">
+		</div>
+		<div id="markDiv">
+			<h3> You Can Mark Question To Check it Later </h3>
+		</div>
+
+		<div id="buttonsDiv">
+			<input id="btnPrev" type="button" value="Previous" />
+			<input id="btnNext" type="button" value="Next" />
+			<input id="btnMark" type="button" value="Mark" />
+			<input id="btnFinish" type="submit" value="Submit" />
+			<input id="btnSubmitAll" type="button" value="SubmitAll" />
+			<input type="button" id="btnShowAnswer" value="Show Answer" />
+		</div>
+		<div id="answerDiv" style="display:none;">
+		</div>
+
+	</div>
+	<table id="tbl" style="display:none;">
+		<div id="team" style="display:none;">
+			<h4> Team Member </h4>
+			<ul id="teamlist">
+				<li>Aya Talat</li>
+				<li>Hager EL-sayed</li>
+				<li>Mohamed foda</li>
+				<li>Nader Nagi</li>
+			</ul>
+		</div>
+	</table>
+	<div id="mainModelAns" style="display:none;">
+		<div id="modelAns">
+		</div>
+		<div>
+			<input type="button" id="nxtModelAns" value="Next">
+		</div>
+	</div>
+	<div id="back">
+		<input id="btnback" type="button" value="Back To Home" style="display:none;" onclick="history.go(0)"  />
+		<input id="btnteam" type="button" value="Team members" style="display:none;" />
+	</div>
+
+
+
+
+
+</body>
+
+</html>
